@@ -39,7 +39,7 @@ export default class signIn extends Component {
 
       return (
          <div className="sign-in">
-            <h2> I already have an account </h2> <span> Sign in with your email and password </span>{' '}
+            <h2> I already have an account </h2> <span> Sign in with your email and password </span>
             <form onSubmit={this.handleSubmit}>
                <FormInput
                   handleChange={this.handleChange}
@@ -58,13 +58,12 @@ export default class signIn extends Component {
                   required
                />
                <div className="buttons">
-                  <CustomButton type="submit"> Sign in </CustomButton>{' '}
+                  <CustomButton type="submit"> Sign in </CustomButton>
                   <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
-                     {' '}
-                     Sign in with Google{' '}
-                  </CustomButton>{' '}
-               </div>{' '}
-            </form>{' '}
+                     Sign in with Google
+                  </CustomButton>
+               </div>
+            </form>
          </div>
       );
    }
