@@ -1,8 +1,10 @@
-const SHOP_DATA = [{
+const SHOP_DATA = [
+  {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
-    items: [{
+    items: [
+      {
         id: 1,
         name: 'Brown Brim',
         imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
@@ -62,7 +64,8 @@ const SHOP_DATA = [{
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
-    items: [{
+    items: [
+      {
         id: 10,
         name: 'Adidas NMD',
         imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
@@ -116,7 +119,8 @@ const SHOP_DATA = [{
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
-    items: [{
+    items: [
+      {
         id: 18,
         name: 'Black Jean Shearling',
         imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
@@ -152,7 +156,8 @@ const SHOP_DATA = [{
     id: 4,
     title: 'Womens',
     routeName: 'womens',
-    items: [{
+    items: [
+      {
         id: 23,
         name: 'Blue Tanktop',
         imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
@@ -200,7 +205,8 @@ const SHOP_DATA = [{
     id: 5,
     title: 'Mens',
     routeName: 'mens',
-    items: [{
+    items: [
+      {
         id: 30,
         name: 'Camo Down Vest',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
