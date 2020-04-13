@@ -5,8 +5,8 @@ import { auth } from '../../firebase/';
 import { connect } from 'react-redux';
 
 //My Components
-import CartIcon from '../cart-icon';
-import CartDropdown from '../cart-drowdown';
+import CartIcon from '../cartIcon';
+import CartDropdown from '../cartDropdown';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selector';
