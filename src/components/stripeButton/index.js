@@ -14,7 +14,7 @@ const stripeCheckoutButton = ({ price }) => {
          name="Presence Clothing"
          billingAddress
          shippingAddress
-         image="https://presence.agency/wp-content/themes/presence/img/presence-logo.png"
+         image="https://presence.agency/wp-content/themes/presence/img/icons/apple-icon-57x57.png"
          descriptiom={`Tour total is £${price}`}
          amount={priceForStripe}
          panelLabel="Pay now"
