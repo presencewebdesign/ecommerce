@@ -17,8 +17,6 @@ import {
    OptionLink,
 } from './styles.js';
 
-import './style.scss';
-
 const Header = ({ currentUser, hidden }) => (
    <HeaderContainer>
       <LogoContainer className="logo-container" to="/">
