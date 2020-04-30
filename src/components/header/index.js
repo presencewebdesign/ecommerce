@@ -9,13 +9,7 @@ import CartDropdown from '../cartDropdown';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selector';
-import {
-   HeaderContainer,
-   LogoContainer,
-   OptionsContainer,
-   OptionDiv,
-   OptionLink,
-} from './styles.js';
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './styles.js';
 
 const Header = ({ currentUser, hidden }) => (
    <HeaderContainer>
@@ -30,9 +24,9 @@ const Header = ({ currentUser, hidden }) => (
             CONTACT{' '}
          </OptionLink>
          {currentUser ? (
-            <OptionDiv className="option" onClick={() => auth.signOut()}>
+            <OptionLink as="div" className="option" onClick={() => auth.signOut()}>
                SIGN OUT
-            </OptionDiv>
+            </OptionLink>
          ) : (
             <OptionLink className="option" to="/signin">
                SIGN IN
